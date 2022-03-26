@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSHARP_SEL.IWebDriverCommands.DriverCommands</StartupObject>
+    <StartupObject>CSHARP_SEL.IWebDriverCommands.DriverCommands2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IWebDriverCommands\DriverCommands.cs" />
+    <Compile Include="IWebDriverCommands\DriverCommands2.cs" />
     <Compile Include="IWebDriverCommands\FirstTestCase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
