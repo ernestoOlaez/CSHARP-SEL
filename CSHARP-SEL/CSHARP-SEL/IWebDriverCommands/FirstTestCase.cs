@@ -17,6 +17,17 @@ namespace CSHARP_SEL.IWebDriverCommands
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://demoqa.com/";
             driver.Manage().Window.Maximize();
+
+            //Storing the Title length in a String variable
+            String Title = driver.Title;
+            Console.WriteLine("The Title of the Web Site is:" +Title);
+            Console.WriteLine("Sucess");
+            Console.ReadLine();
+
+
+
+
+
         }
     }
 }
