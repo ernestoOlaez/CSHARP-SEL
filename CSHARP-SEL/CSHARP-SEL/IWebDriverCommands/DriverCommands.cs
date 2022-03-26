@@ -27,7 +27,6 @@ namespace CSHARP_SEL.IWebDriverCommands
             //Launch the WebBrowser and Maximize the Window.
             IWebDriver driver = new ChromeDriver();
             driver.Url = "https://demoqa.com/";
-            driver.Manage().Window.Maximize();
 
             //Storing Title name String variable
             String Title = driver.Title;
@@ -47,13 +46,18 @@ namespace CSHARP_SEL.IWebDriverCommands
             //Soring URL Lenght in Int variable
             int URLLenght = PageURL.Length;
 
-            Console.WriteLine("UTL of the page is = " +PageURL);
+            Console.WriteLine("URL of the page is = " +PageURL);
 
             //Printing the lenght on console
             Console.WriteLine("Lenght of URL is ="+ URLLenght);
 
-            Console.WriteLine("Ernest...");
+            //Storing the Page Source in a String variable
+            String PageSource = driver.PageSource;
 
+           // Console.WriteLine("Page Source= "+PageSource);
+            driver.Manage().Window.Maximize();
+           
+            Console.WriteLine("Ernest...");
 
         }
     }
