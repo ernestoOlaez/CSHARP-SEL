@@ -44,9 +44,17 @@ namespace CSHARP_SEL.IWebDriverCommands
             //Storing a URL in a string variable
             String PageURL=driver.Url;
 
-            Console.WriteLine("UTL of the page is ="+PageURL);
+            //Soring URL Lenght in Int variable
+            int URLLenght = PageURL.Length;
+
+            Console.WriteLine("UTL of the page is = " +PageURL);
+
+            //Printing the lenght on console
+            Console.WriteLine("Lenght of URL is ="+ URLLenght);
 
             Console.WriteLine("Ernest...");
+
+
         }
     }
 }
