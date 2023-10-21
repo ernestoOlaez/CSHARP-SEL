@@ -21,7 +21,7 @@ namespace CSHARP_SEL.IWebDriverCommands
             //Storing the Title length in a String variable
             String Title = driver.Title;
             Console.WriteLine("The Title of the Web Site is:" +Title);
-            Console.WriteLine("Sucess");
+            Console.WriteLine("The code has been completed sucessfully!");
             Console.ReadLine();
 
 

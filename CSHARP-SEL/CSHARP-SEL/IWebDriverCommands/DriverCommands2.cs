@@ -19,6 +19,7 @@ namespace CSHARP_SEL.IWebDriverCommands
         */
         static void Main(string[] args)
         {
+            Console.WriteLine("Ernest!");
             IWebDriver driver=new ChromeDriver();   
             driver.Url= "https://demoqa.com/alertsWindows";
 
@@ -33,7 +34,6 @@ namespace CSHARP_SEL.IWebDriverCommands
             driver.FindElement(By.XPath("/html/body/div[2]/div/div/div[2]/div[1]/div/div/div[2]/div/ul/li")).Click();
 
             ////*[@id="item-0"]
-
             Console.WriteLine("Ernest!");
             //driver.Close(); 
         }
